@@ -1,0 +1,341 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+	position: absolute;
+	top: -5px;
+	right: 20px;
+	padding-top: 7.5px;
+}
+
+h1 a {
+	color: #1a1a1a;
+}
+
+a:hover {
+	color: #f2f2f2;
+    text-decoration: none;
+}
+
+#header-nav {
+	width: 100%;
+	background-color: rgba(191, 191, 191, 0.52);
+	border: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #1a1a1a;
+	font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #f2f2f2;
+}
+
+#main-content {
+	width: 60%;
+	color: #1a1a1a;
+	background-color: rgba(217, 217, 217, 0.85);
+	position: absolute;
+	top: 33%;
+	left: 20%;
+	z-index: 3;
+	border: 0;
+}
+
+#main-content p {
+	color: black;
+	font-size: 14px;
+	padding: 10px 20px 0px 20px;
+}
+
+#art_storage {
+	background-color: rgb(217, 217, 217);
+	padding: 180px 0px 50px 0px;
+}
+
+#art_storage h2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 0px 0px 30px 0px;
+}
+
+.thumbnail {
+  padding: 0px;
+  background-color: rgb(217, 217, 217);
+  border: 0px;
+}
+
+#fancybox-title {
+	margin-left: 0px!important;
+}
+
+.thumbnail .caption {
+  padding: 9px;
+  color: #333;
+}
+
+.btn {
+	background-color: #009900;
+	float: right; 
+	width: 30%;
+	height: 40px;
+	border-top: 1px solid black;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	border-left: 1px solid black;
+}
+
+.contact-foot {
+	float: right;
+}
+
+#myfoot_home {
+	width: 100%;
+	height: 30px;
+	color: #1a1a1a;
+	background-color: rgba(191, 191, 191, 0.52);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	border: 0;
+}
+
+#myfoot {
+	width: 100%;
+	height: 30px;
+	color: #1a1a1a;
+	background-color: rgb(191, 191, 191);
+	border: 0;
+}
+
+@media (min-width: 0px) and (max-width: 1323px){
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, 
+.thumbnail a>img, .thumbnail>img {
+	max-width: 1390px;
+	max-height: auto;
+}
+}
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+h1 {
+	font-size: 32px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 14.5px;
+}
+
+#main-content {
+	width: 60%;
+	position: absolute;
+	top: 33%;
+	left: 20%;
+}
+
+
+#main-content p {
+	color: black;
+	font-size: 11px;
+}
+}
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+h1 {
+	font-size: 28px;
+	padding-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 12px;
+	/*border-right: 1px solid black;*/
+}
+
+#main-content {
+	width: 90%;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+
+#main-content p {
+	color: black;
+	font-size: 10px;
+}
+}
+
+/* xs */
+
+@media (min-width: 633px) and (max-width: 767px) {
+
+h1 {
+	font-size: 28px;
+	position: absolute;
+	top: -5px;
+	left: 20px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+#header-nav {
+	height: 70px;
+	margin-bottom: 0px;
+}
+
+#collapsable-nav { 
+    width: 100%;
+	background-color: rgba(191, 191, 191, 0.52);
+	border: 0;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	z-index: 5;
+}
+
+#collapsable-nav a {
+	float: left;
+	color: black;
+
+}
+
+#main-content {
+	width: 90%;
+	position: absolute;
+	top: 25%;
+	left: 5%;
+}
+
+#main-content p {
+	color: black;
+	font-size: 10px;
+}
+}
+
+/* xxs */
+
+@media (min-width: 0px) and (max-width: 633px) {
+
+h1 {
+	font-size: 24px;
+	position: absolute;
+	top: -5px;
+	left: 20px; 
+}
+
+h3 {
+	font-size: 16px;
+}
+
+#header-nav {
+	height: 65px;
+}
+
+#collapsable-nav { 
+    width: 100%;
+	background-color: rgba(191, 191, 191, 0.52);
+	border: 0;
+	position: absolute;
+	top: 65px;
+	right: 0;
+	z-index: 5;
+}
+
+#collapsable-nav a {
+	float: left;
+	color: black;
+	font-size: .65em;
+	padding: 0px 10px 0px 10px;
+
+}
+
+#main-content {
+	width: 90%;
+	position: absolute;
+	top: 22%;
+	left: 5%;
+}
+
+#main-content p {
+	color: black;
+	font-size: 8px;
+}
+}
+
+@media (min-width: 0px) and (max-width: 383px) {
+
+h1 {
+	font-size: 21px;
+	position: absolute;
+	top: -5px;
+	left: 20px; 
+}
+
+h3 {
+	font-size: 14px;
+}
+
+#header-nav {
+	height: 50px;
+}
+
+
+#collapsable-nav { 
+    width: 100%;
+	background-color: rgba(191, 191, 191, 0.52);
+	border: 0;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	z-index: 5;
+}
+
+#collapsable-nav a {
+	font-size: .50em;
+
+}
+
+#main-content {
+	width: 90%;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+
+#main-content p {
+	font-size: 6px;
+}
+
+.form-group-sm .form-control {
+  height: 20px;
+  padding: 5px 5px;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 3px;
+}
+
+.btn {
+	background-color: #009900;
+	float: right; 
+	width: 30%;
+	height: 20px;
+	font-size: 10px;
+	border-top: 1px solid black;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	border-left: 1px solid black;
+}
+}
