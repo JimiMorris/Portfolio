@@ -1,4 +1,11 @@
 $(document).ready(function(){
+  $('ul.first').bsPhotoGallery({
+    "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+    "hasModal" : true
+  });
+});
+
+/**$(document).ready(function(){
 
     loadGallery(true, 'a.thumbnail');
 
@@ -18,7 +25,7 @@ $(document).ready(function(){
      * @param setClickAttr  Sets the attribute for the click handler.
      */
 
-    function loadGallery(setIDs, setClickAttr){
+   /** function loadGallery(setIDs, setClickAttr){
         var current_image,
             selector,
             counter = 0;
@@ -53,4 +60,4 @@ $(document).ready(function(){
             updateGallery($(this));
         });
     }
-});
+});**/
