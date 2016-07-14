@@ -35,7 +35,7 @@
 .imgWrapper {
   overflow: hidden;
   max-height: 240px;
-  text-align: center;
+  horizontal-align: middle;
 }
 
 a.bsp-controls, 
