@@ -64,6 +64,13 @@ a:hover {
 	padding: 0px 0px 30px 0px;
 }
 
+#doublewrap {
+	display: inline-block;
+}
+#wrapperDiv {
+	text-align: center;
+}
+
 
 .thumbnail {
   padding: 0px;
