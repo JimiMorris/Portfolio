@@ -86,9 +86,6 @@ ul li {
     list-style:none;
     margin-bottom:10px;
 }
-ul li img {
-    text-align: center;
-}
 
 @media screen and (max-width: 380px){
    .col-xxs-12 {
