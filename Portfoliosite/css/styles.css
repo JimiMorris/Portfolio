@@ -67,6 +67,10 @@ a:hover {
 	padding-bottom: 50px;
 }
 
+ul {
+	padding-top: 50px;
+}
+
 .thumbnail {
     margin-right: auto;
     margin-left: auto;
