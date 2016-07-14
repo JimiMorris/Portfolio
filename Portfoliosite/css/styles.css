@@ -73,6 +73,9 @@ a:hover {
   padding: 9px;
   color: #333;
 }
+.caption {
+	padding-bottom: 20px;
+}
 
 .btn {
 	background-color: #009900;
