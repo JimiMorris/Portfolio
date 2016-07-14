@@ -65,11 +65,9 @@ a:hover {
 }
 .page-header {
 	padding-bottom: 50px;
+	margin-bottom: 100px;
 }
 
-ul {
-	padding-top: 50px;
-}
 
 .thumbnail {
     margin-right: auto;
