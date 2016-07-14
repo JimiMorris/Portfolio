@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/jquery.bsPhotoGallery.css">
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.bsPhotoGallery.js"></script>
   </head>
+  <script>
+      $(document).ready(function(){
+    $('ul.first').bsPhotoGallery({
+    "classes" : "col-lg-3 col-md-4 col-sm-6 col-xs-12 col-xxs-12",
+    "hasModal" : true
+      });
+    });
+  </script>
   <body>
     <header>
       <nav id="header-nav" class="navbar navbar-default">
@@ -186,18 +198,6 @@
     <footer id="myfoot">
       <div class="text-center">&copy; Copyright....2016  All images are property of Jimi Morris. Original Website by Jimi Morris.</div>
     </footer>
-        <!-- jQuery (Bootstrap JS plugins depend on it) -->
-    <script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.bsPhotoGallery.js"></script>
-    <script>
-      $(document).ready(function(){
-    $('ul.first').bsPhotoGallery({
-    "classes" : "col-lg-3 col-md-4 col-sm-6 col-xs-12 col-xxs-12",
-    "hasModal" : true
-      });
-    });
-    </script>
+   
   </body>
 </html>
