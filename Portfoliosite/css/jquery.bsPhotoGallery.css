@@ -82,19 +82,10 @@ body {
 ul {
     padding:0 0 0 0;
     margin:0 0 40px 0;
-      }
+}
 ul li {
     list-style:none;
     margin-bottom:10px;
-    width:300px;
-    text-align:center;
-    border:solid;
-    margin:2em auto;
-    overflow:hidden
-}
-img {
-    margin:0 -100%;
-    vertical-align:middle;
 }
 
 @media screen and (max-width: 380px){
