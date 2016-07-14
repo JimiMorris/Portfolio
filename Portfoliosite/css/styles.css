@@ -64,22 +64,9 @@ a:hover {
 	padding: 0px 0px 30px 0px;
 }
 
-#doublewrap {
-	display: inline-block;
-}
-#wrapperDiv {
-	text-align: center;
-}
-
-
 .thumbnail {
-  padding: 0px;
-  background-color: rgb(217, 217, 217);
-  border: 0px;
-}
-
-#fancybox-title {
-	margin-left: 0px!important;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .thumbnail .caption {
