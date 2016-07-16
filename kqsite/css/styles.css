@@ -1,0 +1,266 @@
+html,body {
+  font-size: 16px;
+  color: #0d0d0d;
+  background-color: #d9d9d9;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: rgb(255, 255, 0);
+  border-radius: 0;
+  border: 0;
+  /**z-index: 1;**/
+}
+
+#logo-img {
+  background: url('../images/kq-logo_large.jpg') no-repeat;
+  width: 150px;
+  height: 75px;
+  margin: 0px 5px 0px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #61122f;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/**.page-header {
+  margin: 60px 0 20px; 
+}
+.page-header_design {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}**/
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  color: #f2f2f2;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+address {
+  margin-bottom: 0px;
+}
+
+address .col-lg-6 .col-md-6 {
+  height: 230px; 
+  line-height: 200px;
+}
+
+address h5 {
+  vertical-align: middle;
+  display: inline-block;
+}
+/* END FOOTER */
+
+
+
+/* HOME PAGE */
+
+#carousel_adjust { 
+  height: 450px;
+}
+
+#testimonials {
+  padding: 0px 10px 10px 10px;
+  font-style: italic;
+}
+
+/* END HOME PAGE */
+/* START ABOUT PAGE */
+#about p {
+  padding-top: 20px;
+}
+#about p img {
+  padding: 10px 20px 10px 20px;
+}
+/* END ABOUT PAGE */
+
+/* START SERVICE PAGE */
+
+.service_est {
+  height: 230px; 
+  line-height: 200px;
+}
+
+.service_est h3 { 
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#servintro {
+  padding-top: 20px;
+}
+
+#rates {
+  padding-top: 25px;
+}
+
+
+/* END SERVICE PAGE */
+/* START GALLERY PAGE */
+
+#gallery ul {
+  padding-top: 20px;
+}
+
+#listbox .thumbnail {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+}
+
+
+/* END GALLERY PAGE */
+/* START LINKS PAGE */
+
+#links h4 {
+  padding-top: 20px;
+}
+
+
+/* END LINKS PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/.jpg') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  /* Home Page */
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  
+  .xx-photo {
+    margin-right: auto;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
