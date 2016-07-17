@@ -80,7 +80,7 @@ html,body {
 #home_box h2 {
   background-color: #4d4dff;
   color: white;
-  margin-top: 100px;
+  margin-top: 75px;
 
 }
 
@@ -104,7 +104,7 @@ html,body {
 #tweet_box {
   font-size: .85em;
   border: 1px solid black;
-  margin-top: 100px;
+  margin-top: -75px;
 }
 
 #tweet_box p {
@@ -116,7 +116,7 @@ html,body {
 }
 
 #headlines {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .panel-footer {
