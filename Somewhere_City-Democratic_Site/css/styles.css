@@ -115,6 +115,10 @@ html,body {
 
 }
 
+#headlines {
+  margin-top: 200px;
+}
+
 .panel-footer {
   margin-top: 30px;
   padding-top: 35px;
