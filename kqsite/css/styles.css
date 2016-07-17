@@ -13,6 +13,9 @@ html,body {
 }
 
 #logo-img {
+  position: absolute;
+  top: 0;
+  left: 25px;
   background: url('../images/kq-logo_large.jpg') no-repeat;
   width: 150px;
   height: 75px;
@@ -21,6 +24,7 @@ html,body {
 
 .navbar-brand {
   padding-top: 25px;
+  padding-left: 50px;
 }
 .navbar-brand h1 { 
   font-family: 'Lora', serif;
@@ -39,6 +43,7 @@ html,body {
 
 #nav-list {
   margin-top: 10px;
+  padding-right: 10px;
 }
 #nav-list a {
   color: #951C49;
@@ -59,6 +64,12 @@ html,body {
   margin-top: -30px;
 }
 /* END HEADER */
+
+.orangecat_head {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 /**.page-header {
   margin: 60px 0 20px; 
